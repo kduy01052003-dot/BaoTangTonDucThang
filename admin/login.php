@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['admin_name'] = $admin['username'];
         header('Location: dashboard.php'); exit;
     }
-    $error = 'Tên đăng nhập hoặc mật khẩu không không chính xác.';
+    $error = 'Tên đăng nhập hoặc mật khẩu không chính xác.';
 }
 ?>
 <!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Đăng nhập quản trị</title><link rel="stylesheet" href="../assets/css/style.css"></head><body class="admin-body">
